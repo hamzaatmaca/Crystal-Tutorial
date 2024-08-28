@@ -11,7 +11,7 @@ require "./enum/enum"
 module WebServer
   VERSION = "0.1.0"
 
-  result = Router.topla(3,6)
+  result = My_Functions.topla(3,6)
   puts result
 
   loops_result = Loops.my_loop
