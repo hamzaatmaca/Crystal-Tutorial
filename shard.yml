@@ -1,0 +1,13 @@
+name: web_server
+version: 0.1.0
+
+authors:
+  - gmowinDeveloperTeam <developer@gmowin.com>
+
+targets:
+  web_server:
+    main: src/web_server.cr
+
+crystal: '>= 1.13.2'
+
+license: MIT
